@@ -30,7 +30,7 @@ class TestTriangles(unittest.TestCase):
 
     def testValidInput3(self):
         """ To test for input above 200"""
-        self.assertEqual(classifyTriangle(200, 1, 8), 'InvalidInput')
+        self.assertEqual(classifyTriangle(201, 1, 8), 'InvalidInput')
 
     def testRightTriangleA(self):
         """ To test right angle triangles"""
