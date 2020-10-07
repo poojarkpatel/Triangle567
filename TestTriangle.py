@@ -16,8 +16,8 @@ from Triangle import classifyTriangle
 
 class TestTriangles(unittest.TestCase):
     # define multiple sets of tests as functions with names that begin
-    def testTriangle(self):
-        self.assertEqual(classifyTriangle(1, 6, 8), 'NotATriangle')
+#     def testTriangle(self):
+#         self.assertEqual(classifyTriangle(1, 6, 8), 'NotATriangle')
 
     def testValidInput1(self):
         """ To test for input less than 0"""
