@@ -9,7 +9,8 @@ The primary goal of this file is to demonstrate a simple python program to class
 @author: rk
 """
 
-def classifyTriangle(a, b, c):
+
+def classify_triangle(a, b, c):
     """
     Your correct code goes here...  Fix the faulty logic below until the code passes all of 
     you test cases. 
